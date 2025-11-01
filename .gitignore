@@ -1,80 +1,98 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# PyCharm
-*.iml
-.idea/
-
-# VS Code
-.vscode/
-
-# Conda environment files
-environment.yml
-env.yml
-
-# Large binary files / MD simulation data
+# ===============================
+#  MOLECULAR DYNAMICS FILES
+# ===============================
 *.xtc
 *.trr
-*.dcd
-*.psf
-*.pdb
 *.tpr
-
-# Logs and databases
+*.gro
+*.edr
+*.cpt
 *.log
-*.sqlite3
-
-# Miscellaneous
-*.DS_Store
+*.mdp
+*.ndx
 *.out
-*.log
+*.xvg
+*.top
+*.itp
+*.prm
+*.pdb~
 *.bak
-*~
+*.bck
+# temporary or partial files
+# raw simulation directories
+traj/
+raw/
+tmp/
+logs/
+# GROMACS decomp outputs
+decomp_*/raw/
+decomp_*/tmp/
+decomp_*/intermediate/
 
-# Ignore data folder except sample small files
+# ===============================
+#  PYTHON / AI ENVIRONMENT
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.ipynb_checkpoints/
+.env
+.env*/
+ai_env/
+venv/
+*.log
+*.tmp
+*.cache/
+
+# ===============================
+#  DATA & MACHINE LEARNING FILES
+# ===============================
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.h5
+*.joblib
+*.json
+dataset/
 data/
-!data/sample/
+results/
+models/
+outputs/
+checkpoints/
+
+# ===============================
+#  PLOTS & VISUALIZATIONS
+# ===============================
+*.png
+*.svg
+*.pdf
+*.jpg
+plots/
+figures/
+images/
+visuals/
+snapshots/
+
+# ===============================
+#  DOCUMENTS / NOTES
+# ===============================
+*.docx
+*.pptx
+*.odt
+*.rtf
+*.txt
+*.bak
+*.old
+
+# ===============================
+#  SYSTEM / IDE / OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
