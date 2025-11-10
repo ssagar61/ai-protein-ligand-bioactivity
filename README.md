@@ -38,12 +38,12 @@ The study uses **noscapine-based ionic liquids (NOS–ILs)** bound to **human se
 ## ⚙️ Workflow Summary
 
 ```mermaid
-graph LR
-A[System Setup & MD Simulation] --> B[Feature Extraction (RMSD, Rg, SASA, etc.)]
-B --> C[PCA, FEL, Clustering, t-SNE]
-C --> D[Representative Structure Extraction]
-D --> E[Feature Integration (global_md_with_sasa.csv)]
-E --> F[GNN Model Training & Evaluation]
-F --> G[Bioactivity Prediction & Interpretation]
+graph LR;
+A[System Setup & MD Simulation] --> B["Feature Extraction (RMSD / Rg / SASA / etc.)"];
+B --> C[PCA & FEL & Clustering & t-SNE];
+C --> D[Representative Structure Extraction];
+D --> E[Feature Integration global_md_with_sasa.csv];
+E --> F[GNN Model Training & Evaluation];
+F --> G[Bioactivity Prediction & Interpretation];
 ```
 
