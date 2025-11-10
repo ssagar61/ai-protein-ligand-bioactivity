@@ -45,4 +45,5 @@ C --> D[Representative Structure Extraction]
 D --> E[Feature Integration (global_md_with_sasa.csv)]
 E --> F[GNN Model Training & Evaluation]
 F --> G[Bioactivity Prediction & Interpretation]
+```
 
