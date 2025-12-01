@@ -6,7 +6,7 @@ which integrates **classical Molecular Dynamics (MD)** simulations with **Graph 
 
 ---
 
-### 📑 Table of Contents
+## 📑 Table of Contents
 
 1. [Overview](#overview)  
 2. [Workflow Summary](#workflow-summary)  
@@ -22,7 +22,7 @@ which integrates **classical Molecular Dynamics (MD)** simulations with **Graph 
 
 ---
 
-### 🧩 Overview
+## 🧩 Overview
 
 This project demonstrates a **hybrid MD + AI workflow** that unifies:
 
@@ -50,7 +50,7 @@ The study uses **noscapine-based ionic liquids (NOS–ILs)** bound to **human se
 
 ---
 
-### ⚙️ Workflow Summary
+## ⚙️ Workflow Summary
 
 ```mermaid
 graph LR
@@ -67,7 +67,7 @@ graph LR
 
 ```
 ```markdown
-### 📁 Repository Structure
+## 📁 Repository Structure
 
 ai-protein-ligand-bioactivity/
 │
