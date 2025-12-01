@@ -66,7 +66,7 @@ graph LR
   H --> I
 
 ```
-```markdown
+
 ## 📁 Repository Structure
 
 ai-protein-ligand-bioactivity/
