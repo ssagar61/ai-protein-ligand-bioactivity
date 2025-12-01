@@ -152,6 +152,7 @@ python scripts/ai_explainable_pipeline_v_5.py \
     --target logIC50 \
     --explain \
     --save-plots
+```
 
 Outputs:
 
@@ -174,6 +175,7 @@ python scripts/gnn_train.py \
     --lr 1e-3 \
     --target logIC50 \
     --use-md-features
+```
 
 Outputs:
 
