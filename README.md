@@ -93,6 +93,7 @@ ai-protein-ligand-bioactivity/
 │
 ├── requirements.txt
 └── README.md
+```
 
 🛠️ Installation
 
