@@ -66,7 +66,8 @@ graph LR
   H --> I
 
 ```
-📁 Repository Structure
+```markdown
+## 📁 Repository Structure
 
 ai-protein-ligand-bioactivity/
 │
@@ -95,18 +96,21 @@ ai-protein-ligand-bioactivity/
 
 🛠️ Installation
 
-_Create environment_
+### Create environment
 
+```bash
 conda create -n ai_env python=3.10
 conda activate ai_env
 
-_Install dependencies_
+### Install dependencies
 
+```bash
 pip install -r requirements.txt
 
 Note: GNN models require PyTorch and Torch Geometric.
 Install PyTorch first, then run:
 
+```bash
 pip install torch-geometric
 
 (See torch-geometric.org for CUDA-specific wheels.)
@@ -133,6 +137,7 @@ o optional MD descriptors appended as graph-level attributes
 ▶️ Running the Analysis
 Tabular ML Pipeline + Explainability
 
+```bash
 python scripts/ai_explainable_pipeline_v_5.py \
     --input data/final_features.csv \
     --model XGB \
@@ -151,6 +156,8 @@ o performance metrics
 **Graph Neural Network (GNN) Models**
 
 Example: Train GIN with MD features integrated:
+
+```bash
 python scripts/gnn_train.py \
     --graphs data/graphs/ \
     --model GIN \
