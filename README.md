@@ -102,16 +102,22 @@ ai-protein-ligand-bioactivity/
 conda create -n ai_env python=3.10
 conda activate ai_env
 
+```
+
 ### Install dependencies
 
 ```bash
 pip install -r requirements.txt
+
+```
 
 Note: GNN models require PyTorch and Torch Geometric.
 Install PyTorch first, then run:
 
 ```bash
 pip install torch-geometric
+
+```
 
 (See torch-geometric.org for CUDA-specific wheels.)
 
@@ -123,10 +129,12 @@ final_features.csv
 
 2️⃣ Generate graph datasets (for GNN training)
 
+```bash
 python scripts/prepare_graphs.py \
     --smiles data/descriptor_data.csv \
     --md data/md_features.csv \
     --out data/graphs/
+```
 
 Each molecule becomes a PyTorch Geometric graph object with:
 
